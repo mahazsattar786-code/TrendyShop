@@ -1,7 +1,4 @@
 import { defineConfig } from 'vite'
-
 export default defineConfig({
-  server: {
-    allowedHosts: true
-  }
+  server: { host: '0.0.0.0', allowedHosts: true, proxy: { '/api': 'http://127.0.0.1:8787' } }
 })

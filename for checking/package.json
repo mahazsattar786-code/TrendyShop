@@ -1,17 +1,1 @@
-{
-  "name": "for-checking",
-  "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
-  "scripts": {
-    "dev": "vite",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "vite": "^7.0.0"
-  }
-}
+{"name":"trendy-shop","version":"2.0.0","type":"module","scripts":{"dev":"node server.js","preview":"vite --host 0.0.0.0","build":"vite build"},"dependencies":{}}
